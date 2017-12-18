@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/UCSCCanteen-new';
 
 /*
 |--------------------------------------------------------------------------
@@ -432,7 +432,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -511,7 +511,7 @@ $config['rewrite_short_tags'] = FALSE;
 |
 | If your server is behind a reverse proxy, you must whitelist the proxy
 | IP addresses from which CodeIgniter should trust headers such as
-| HTTP_X_FORWARDED_FOR and HTTP_CLIENT_IP in order to properly identify
+| HTTP_X_FORWARDED_FOR and HTTP_CLIENT_IP in ordermenu to properly identify
 | the visitor's IP address.
 |
 | You can use both an array or a comma-separated list of proxy addresses,

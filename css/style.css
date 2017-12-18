@@ -1,0 +1,64 @@
+#Menu .content-menu{
+    background-color: #18BC9C;
+    color: white;
+   width: 900px;
+    position: relative;
+    left: 220px;
+}
+#Menu .content-menu hr{
+   width:800px;
+    border: 1px solid #888888;
+}
+#Menu .content-menu p{
+   margin-left: 40px;
+    text-align: center;
+}
+
+#Menu .content-menu h3,h4{
+    margin-left: 30px;
+}
+
+#Menu .content-menu h4{
+    text-transform: capitalize;
+}
+
+#Menu .content-menu .content p{
+    text-align: left;
+}
+
+#Menu .content-menu .vl {
+    border-left: 1px solid #ffffff;
+    height: 500px;
+}
+
+#Menu .content .modal-dialog {
+    background-color:#2C3E50 ;
+}
+
+
+
+#portfolioModal1 .modal {
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    padding-top: 0px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+}
+
+#portfolioModal1 .close1,.close2,.close3,.close4,.close5,.close6,.close7 {
+    color: #aaaaaa;
+    position: relative;
+    left:300px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#portfolioModal1 .close1:hover,.close2:hover,.close2:focus,.close3:hover,.close3:focus,.close4:hover,.close4:focus,.close5:hover,.close5:focus,.close6:hover,.close6:focus,.close7:hover,.close7:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

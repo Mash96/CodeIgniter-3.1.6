@@ -1,0 +1,59 @@
+#Menu .content-menu{
+    background-color: #18BC9C;
+    color: white;
+
+}
+#Menu .content-menu hr{
+
+    border: 1px solid #888888;
+}
+#Menu .content-menu p{
+    margin-left: 40px;
+    text-align: center;
+}
+
+#Menu .content-menu h3,h4{
+    margin-left: 30px;
+}
+
+#Menu .content-menu h4{
+    text-transform: capitalize;
+}
+
+#Menu .content-menu .content p{
+    text-align: left;
+}
+
+#Menu .content-menu .vl {
+    border-left: 1px solid #ffffff;
+    height: 2600px;
+}
+
+
+#Menu .content-menu .content .modal-content{
+    background-color:#2C3E50 ;
+
+}
+#Menu .content-menu .content .modal-dialog{
+    width:800px;
+}
+
+#Menu .content-menu .content .modal-content .close{
+    outline: none;
+    position: relative;
+    right:20px;
+    color: white;
+}
+
+#Menu .content-menu .content .modal-content {
+    text-align: center;
+    text-transform: capitalize;
+    width: 400px;
+}
+#Menu .content-menu .content .modal-content p{
+    font-size: 16px;
+}
+
+#Menu .content-menu .content .modal-body #add{
+
+}
